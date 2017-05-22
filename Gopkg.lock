@@ -1,0 +1,13 @@
+memo = "d809c274c773b1410285a98f8afc69a45ebb637104cc8a932df605b9e0dc3c49"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/BurntSushi/toml"
+  packages = ["."]
+  revision = "b26d9c308763d68093482582cea63d69be07a0f0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/buger/goterm"
+  packages = ["."]
+  revision = "bc6c333206f446a53cac4db5d2e6a4316139d737"
