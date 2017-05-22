@@ -26,8 +26,23 @@ In addition, you can set up the exchange currency.
 [[fetchers]]
   name = "spectrocoin"
   exchanges = [
-    "btc", "eur", 
-    "btc", "usd", 
+    "btc", "eur",
+    "btc", "usd",
+    "eur", "usd"
+  ]
+
+[[fetchers]]
+  name = "coindesk"
+  exchanges = [
+    "btc", "eur",
+    "btc", "usd",
+  ]
+
+[[fetchers]]
+  name = "btce"
+  exchanges = [
+    "btc", "eur",
+    "btc", "usd",
     "eur", "usd"
   ]
 ```
