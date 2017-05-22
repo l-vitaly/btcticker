@@ -25,7 +25,7 @@ In addition, you can set up the exchange currency.
 ``` toml
 [[fetchers]]
   name = "spectrocoin"
-  exchange = [
+  exchanges = [
     "btc", "eur", 
     "btc", "usd", 
     "eur", "usd"
@@ -39,4 +39,4 @@ This defines one fetch entry.
 | Setting | Description |
 | ------- | ----------- |
 | `name`                | fetcher name, available btce, coindesk and spectrocoin |
-| `exchange`            | currency pair from/to for exchange
+| `exchanges`           | currency pair from/to for exchange
